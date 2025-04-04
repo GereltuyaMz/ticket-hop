@@ -1,0 +1,80 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticketWrapper {
+  position: relative;
+}
+
+.firstname {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.studentcode {
+  position: absolute;
+  top: 260px;
+  left: 228px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.seat {
+  position: absolute;
+  top: 260px;
+  left: 570px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.studentpassword {
+  position: absolute;
+  top: 260px;
+  left: 376px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media print {
+  .firstname {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+  }
+
+  .studentcode {
+    position: absolute;
+    top: 233px;
+    left: 205px;
+  }
+
+  .studentpassword {
+    position: absolute;
+    top: 233px;
+    left: 340px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .seat {
+    position: absolute;
+    top: 233px;
+    left: 515px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+}
